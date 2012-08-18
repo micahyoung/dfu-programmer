@@ -1,7 +1,7 @@
 /*
  * dfu-programmer
  *
- * $Id$
+ * $Id: arguments.c 104 2011-09-22 14:38:24Z schmidtw $
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU General Public License as published by
@@ -72,6 +72,7 @@ static struct target_mapping_structure target_map[] = {
     { "at90usb647",     tar_at90usb647,     adc_AVR,   0x2FF9, 0x03eb, 0x10000, 0x2000, true,  128, true,  false, 128, 0x0800 },
     { "at90usb646",     tar_at90usb646,     adc_AVR,   0x2FF9, 0x03eb, 0x10000, 0x2000, true,  128, true,  false, 128, 0x0800 },
     { "at90usb162",     tar_at90usb162,     adc_AVR,   0x2FFA, 0x03eb, 0x04000, 0x1000, true,  128, true,  false, 128, 0x0200 },
+    { "at90usb162unor3", tar_at90usb162,    adc_AVR,   0x2FEF, 0x03eb, 0x04000, 0x1000, true,  128, true,  false, 128, 0x0200 },
     { "at90usb82",      tar_at90usb82,      adc_AVR,   0x2FF7, 0x03eb, 0x02000, 0x1000, true,  128, true,  false, 128, 0x0200 },
     { "atmega32u6",     tar_atmega32u6,     adc_AVR,   0x2FF2, 0x03eb, 0x08000, 0x1000, true,  128, true,  false, 128, 0x0400 },
     { "atmega32u4",     tar_atmega32u4,     adc_AVR,   0x2FF4, 0x03eb, 0x08000, 0x1000, true,  128, true,  false, 128, 0x0400 },

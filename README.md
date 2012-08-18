@@ -1,3 +1,9 @@
+Fork note:
+==========
+For Arduino R3 use the chip name `at90usb162unor3`
+
+Original README
+===============
 dfu-programmer is an implementation of the Device Firmware Upgrade class
 USB driver that enables firmware upgrades for various USB enabled (with the
 correct bootloader) Atmel chips.  This program was created because the
